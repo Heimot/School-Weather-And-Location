@@ -16,7 +16,6 @@ function Weather(props) {
         fetch(url)
         .then(res => res.json())
         .then((result) => {
-            console.log(result)
             if(result.current !== undefined) {
                 setTemp(result.current.temp);
                 setSpeed(result.current.wind_speed);
