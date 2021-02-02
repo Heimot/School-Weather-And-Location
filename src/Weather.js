@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 const API_URL = "https://api.openweathermap.org/data/2.5/onecall?"; /*lat={lat}&lon={lon}&exclude={part}&appid={API key}*/
 const ICON_URL = "http://openweathermap.org/img/wn/";
-const API_KEY = "fb445191f13df590248ddab37a592362";
+const API_KEY = "";
 
 function Weather(props) {
     const [temp, setTemp] = useState(0);
